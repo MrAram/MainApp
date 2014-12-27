@@ -8,9 +8,6 @@ namespace MainApplication
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
 
@@ -18,11 +15,11 @@ namespace MainApplication
                         "~/Scripts/jquery.unobtrusive*",
                         "~/Scripts/jquery.validate*"));
 
-            bundles.Add(new ScriptBundle("~/Scripts/Custom").Include(
-                        "~/Scripts/Custom/html5.js",
-                        "~/Scripts/Custom/jquery-1.7.min.js",
-                        "~/Scripts/Custom/jquery.easing.1.3.js",
-                        "~/Scripts/Custom/tms-0.4.1.js"));
+            bundles.Add(new ScriptBundle("~/Scripts").Include(
+                        "~/Scripts/html5.js",
+                        "~/Scripts/jquery-1.7.js",
+                        "~/Scripts/jquery.easing.1.3.js",
+                        "~/Scripts/tms-0.4.1.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
@@ -45,11 +42,11 @@ namespace MainApplication
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
 
-            bundles.Add(new StyleBundle("~/Content/CustomContent").Include(
-                        "~/Content/CustomContent/ie.css",
-                        "~/Content/CustomContent/reset.css",
-                        "~/Content/CustomContent/slider.css",
-                        "~/Content/CustomContent/style.css"));
+            bundles.Add(new StyleBundle("~/Content").Include(
+                        "~/Content/ie.css",
+                        "~/Content/reset.css",
+                        "~/Content/slider.css",
+                        "~/Content/style.css"));
         }
     }
 }
