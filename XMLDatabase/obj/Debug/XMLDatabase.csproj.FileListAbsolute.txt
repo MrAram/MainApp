@@ -1,0 +1,12 @@
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.dll.config
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.dll
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.pdb
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.dll
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.pdb
+C:\Users\aram.avetisyan\Desktop\MainApplication\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.csprojResolveAssemblyReference.cache
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.dll.config
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.dll
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\bin\Debug\XMLDatabase.pdb
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.dll
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.pdb
+C:\Users\aram.avetisyan\Desktop\MainApplication\XMLDatabase\obj\Debug\XMLDatabase.csprojResolveAssemblyReference.cache

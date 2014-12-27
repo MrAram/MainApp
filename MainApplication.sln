@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApplication", "MainApplication\MainApplication.csproj", "{C6A23351-D8B6-4CED-8A3A-3A54D5F0D205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLDatabase", "XMLDatabase\XMLDatabase.csproj", "{B07C78B9-56E2-44A2-80EC-D630291F8963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A23351-D8B6-4CED-8A3A-3A54D5F0D205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A23351-D8B6-4CED-8A3A-3A54D5F0D205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A23351-D8B6-4CED-8A3A-3A54D5F0D205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A23351-D8B6-4CED-8A3A-3A54D5F0D205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07C78B9-56E2-44A2-80EC-D630291F8963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07C78B9-56E2-44A2-80EC-D630291F8963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07C78B9-56E2-44A2-80EC-D630291F8963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C78B9-56E2-44A2-80EC-D630291F8963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
