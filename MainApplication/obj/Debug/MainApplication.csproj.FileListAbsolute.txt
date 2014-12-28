@@ -59,4 +59,3 @@ C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\bin\System.Web.WebPages.
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\bin\System.Web.WebPages.Razor.xml
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\obj\Debug\MainApplication.dll
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\obj\Debug\MainApplication.pdb
-C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\obj\Debug\MainApplication.csprojResolveAssemblyReference.cache
