@@ -9,15 +9,16 @@ namespace XMLDatabase.XMLDatabase
 {
     public static class Data
     {
-        private static readonly DataSet DataSet = new Database();
+        private static DataSet _dataSet = new Database();
         public static string XMLDataPath { get; set; }
 
         public static bool CleanDatabase()
         {
             try
             {
+                _dataSet = new DataSet();
                 var doc = new XmlDocument();
-                doc.LoadXml("");
+                doc.LoadXml(string.Format("<Database xmlns=\"{0}\"></Database>", "http://tempuri.org/Database.xsd"));
                 doc.Save(XMLDataPath);
                 return true;
             }
@@ -31,8 +32,8 @@ namespace XMLDatabase.XMLDatabase
         {
             try
             {
-                DataSet.ReadXml(XMLDataPath);
-                return DataSet;
+                _dataSet.ReadXml(XMLDataPath);
+                return _dataSet;
             }
             catch
             {
@@ -44,9 +45,10 @@ namespace XMLDatabase.XMLDatabase
         {
             try
             {
-                var xml = DataSet.GetXml();
+                var xml = _dataSet.GetXml();
                 var doc = new XmlDocument();
                 doc.LoadXml(xml);
+                CleanDatabase();
                 doc.Save(XMLDataPath);
                 return true;
             }

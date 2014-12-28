@@ -1,0 +1,66 @@
+﻿@functions {
+
+    public string GetCountComments()
+    {
+        return ((List<string>) ViewData["Comments"]).Count.ToString();
+    }
+
+    public string NextComment()
+    {
+        var viewdata = ((List<string>) ViewData["Comments"]);
+        var currentData = viewdata[0];
+        viewdata.RemoveAt(0);
+        return currentData;  
+    }
+}
+
+<script type="text/javascript">
+    String.format = function () {
+        // The string containing the format items (e.g. "{0}")
+        // will and always has to be the first argument.
+        var theString = arguments[0];
+
+        // start with the second argument (i = 1)
+        for (var i = 1; i < arguments.length; i++) {
+            // "gm" = RegEx options for Global search (more than one instance)
+            // and for Multiline search
+            var regEx = new RegExp("\\{" + (i - 1) + "\\}", "gm");
+            theString = theString.replace(regEx, arguments[i]);
+        }
+
+        return theString;
+    }
+    $(document).ready(function () {
+        debugger;
+        var $comments = $("#form").find("#Comments");
+
+        var count = "@GetCountComments()";
+        for (var i = 0; i < parseInt(count) ; i++) {
+            $comments.append("@(NextComment())");
+        }
+        
+
+    });
+</script>
+
+<section id="content" >
+    <div class="sub-page">
+      <div class="sub-page-left box-9">
+        <h2>Comments</h2>
+        <form id="form" method="post" action="#">
+            <fieldset>
+                <div id="Comments">
+                    
+                </div>
+                <label>
+                    <input type="text" name="Comment" value="Comment" onBlur="if(this.value=='') this.value='Comment'" onFocus="if(this.value =='Comment' ) this.value=''">
+                </label>
+            
+                <div class="btns">
+                    <a class="button" id="btnAdd" onClick="document.getElementById('form').submit()">Add</a>
+                </div>
+            </fieldset>
+        </form>
+      </div>
+    </div>
+  </section>
