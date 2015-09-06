@@ -62,3 +62,36 @@ C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\obj\Debug\MainApplicatio
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\bin\XMLDatabase.dll
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\bin\XMLDatabase.pdb
 C:\Users\aram.avetisyan\Desktop\MainApp\MainApplication\obj\Debug\MainApplication.csprojResolveAssemblyReference.cache
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\MainApplication.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\MainApplication.pdb
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\Antlr3.Runtime.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\EntityFramework.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\Newtonsoft.Json.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Http.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Mvc.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Optimization.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Providers.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Razor.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\WebGrease.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\XMLDatabase.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\XMLDatabase.pdb
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\EntityFramework.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\Newtonsoft.Json.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Http.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Mvc.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.Razor.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\obj\Debug\MainApplication.csprojResolveAssemblyReference.cache
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\obj\Debug\MainApplication.dll
+C:\Users\Aram Avetisyan\Documents\MainApp\MainApplication\obj\Debug\MainApplication.pdb
