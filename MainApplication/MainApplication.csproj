@@ -137,7 +137,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database.accdb" />
     <Content Include="App_Data\Database.xml" />
     <Content Include="Content\ie.css" />
     <Content Include="Content\Images\banner.png" />
