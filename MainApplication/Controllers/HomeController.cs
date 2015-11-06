@@ -1,30 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.OleDb;
-using System.Linq;
-using System.Web;
+﻿using System.Data.OleDb;
 using System.Web.Mvc;
+using MainApplication.DataAccess;
 using MainApplication.Models;
-using XMLDatabase.XMLDatabase;
 
 namespace MainApplication.Controllers
 {
     public class HomeController : Controller
     {
+        private Data _data;
         public HomeController()
         {
-            Data.XMLDataPath = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Database.xml");
+            _data = new Data(true);
         }
         [HttpGet]
         public ActionResult Main()
         {
-            string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/Controllers/Database.accdb");
-            using (OleDbConnection connection = new OleDbConnection(connString))
-            {
-                connection.Open();
-                OleDbCommand command = new OleDbCommand("SELECT Table.ID FROM [Table];", connection);
-                command.ExecuteNonQuery();
-            }
             return View();
         }
 
@@ -69,14 +59,14 @@ namespace MainApplication.Controllers
         [HttpGet]
         public ActionResult Comments()
         {
-            ViewData["Comments"] = DataAccess.DataProvider.GetComments();
+            ViewData["Comments"] = _data.Comment[0].Value;
             return View();
         }
 
         [HttpPost]
         public ActionResult Comments(CommentModel model)
         {
-            DataAccess.DataProvider.AddComment(model.Comment);
+            _data.Comment.AddCommentRow("1", model.Comment);
             return RedirectToAction("Comments");
         }
 

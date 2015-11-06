@@ -9,7 +9,7 @@ namespace XMLDatabase.XMLDatabase
 {
     public static class Data
     {
-        private static DataSet _dataSet = new Database();
+        private static DataSet _dataSet = new DataSet();
         public static string XMLDataPath { get; set; }
 
         public static bool CleanDatabase()

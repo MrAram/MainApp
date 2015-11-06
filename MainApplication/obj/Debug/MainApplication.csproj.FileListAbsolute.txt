@@ -80,8 +80,6 @@ D:\MainApp\MainApp\MainApplication\bin\System.Web.WebPages.Deployment.dll
 D:\MainApp\MainApp\MainApplication\bin\System.Web.WebPages.dll
 D:\MainApp\MainApp\MainApplication\bin\System.Web.WebPages.Razor.dll
 D:\MainApp\MainApp\MainApplication\bin\WebGrease.dll
-D:\MainApp\MainApp\MainApplication\bin\XMLDatabase.dll
-D:\MainApp\MainApp\MainApplication\bin\XMLDatabase.pdb
 D:\MainApp\MainApp\MainApplication\bin\EntityFramework.xml
 D:\MainApp\MainApp\MainApplication\bin\Newtonsoft.Json.xml
 D:\MainApp\MainApp\MainApplication\bin\System.Net.Http.Formatting.xml
@@ -95,3 +93,4 @@ D:\MainApp\MainApp\MainApplication\bin\System.Web.WebPages.Razor.xml
 D:\MainApp\MainApp\MainApplication\obj\Debug\MainApplication.csprojResolveAssemblyReference.cache
 D:\MainApp\MainApp\MainApplication\obj\Debug\MainApplication.dll
 D:\MainApp\MainApp\MainApplication\obj\Debug\MainApplication.pdb
+D:\MainApp\MainApp\MainApplication\bin\MainApplication.dll.config

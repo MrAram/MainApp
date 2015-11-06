@@ -129,6 +129,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataAccess\Data.cs">
+      <DependentUpon>Data.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataAccess\DataProvider.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -219,6 +228,17 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\html5.js" />
     <Content Include="Scripts\jquery-1.7.js" />
+    <Content Include="DataAccess\Data.xsc">
+      <DependentUpon>Data.xsd</DependentUpon>
+    </Content>
+    <None Include="DataAccess\Data.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataAccess\Data.xss">
+      <DependentUpon>Data.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -256,12 +276,6 @@
     <Content Include="Views\Home\PriceList.cshtml" />
     <Content Include="Views\Home\Repair.cshtml" />
     <Content Include="Views\Home\Comments.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\XMLDatabase\XMLDatabase.csproj">
-      <Project>{b07c78b9-56e2-44a2-80ec-d630291f8963}</Project>
-      <Name>XMLDatabase</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
