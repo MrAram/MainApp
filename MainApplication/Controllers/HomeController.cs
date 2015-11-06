@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.OleDb;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,6 +18,13 @@ namespace MainApplication.Controllers
         [HttpGet]
         public ActionResult Main()
         {
+            string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/Controllers/Database.accdb");
+            using (OleDbConnection connection = new OleDbConnection(connString))
+            {
+                connection.Open();
+                OleDbCommand command = new OleDbCommand("SELECT Table.ID FROM [Table];", connection);
+                command.ExecuteNonQuery();
+            }
             return View();
         }
 

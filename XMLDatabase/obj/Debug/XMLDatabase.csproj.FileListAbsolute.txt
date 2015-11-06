@@ -15,3 +15,9 @@ C:\Users\aram.avetisyan\Desktop\MainApp\XMLDatabase\bin\Debug\XMLDatabase.dll
 C:\Users\aram.avetisyan\Desktop\MainApp\XMLDatabase\bin\Debug\XMLDatabase.pdb
 C:\Users\aram.avetisyan\Desktop\MainApp\XMLDatabase\obj\Debug\XMLDatabase.dll
 C:\Users\aram.avetisyan\Desktop\MainApp\XMLDatabase\obj\Debug\XMLDatabase.pdb
+D:\MainApp\MainApp\XMLDatabase\bin\Debug\XMLDatabase.dll.config
+D:\MainApp\MainApp\XMLDatabase\bin\Debug\XMLDatabase.dll
+D:\MainApp\MainApp\XMLDatabase\bin\Debug\XMLDatabase.pdb
+D:\MainApp\MainApp\XMLDatabase\obj\Debug\XMLDatabase.csprojResolveAssemblyReference.cache
+D:\MainApp\MainApp\XMLDatabase\obj\Debug\XMLDatabase.dll
+D:\MainApp\MainApp\XMLDatabase\obj\Debug\XMLDatabase.pdb
