@@ -1,4 +1,5 @@
-﻿using System.Data.OleDb;
+﻿using System.Collections.Generic;
+using System.Data.OleDb;
 using System.Web.Mvc;
 using MainApplication.DataAccess;
 using MainApplication.Models;
@@ -10,7 +11,8 @@ namespace MainApplication.Controllers
         private Data _data;
         public HomeController()
         {
-            _data = new Data(true);
+            _data = new Data();
+            _data.Load();
         }
         [HttpGet]
         public ActionResult Main()
@@ -59,7 +61,11 @@ namespace MainApplication.Controllers
         [HttpGet]
         public ActionResult Comments()
         {
-            ViewData["Comments"] = _data.Comment[0].Value;
+            ViewData["Comments"] = new List<string>
+                {
+                    _data.Comment[0].Value,
+                    _data.Comment[1].Value,
+                };
             return View();
         }
 
@@ -67,6 +73,7 @@ namespace MainApplication.Controllers
         public ActionResult Comments(CommentModel model)
         {
             _data.Comment.AddCommentRow("1", model.Comment);
+            _data.SaveChanges();
             return RedirectToAction("Comments");
         }
 

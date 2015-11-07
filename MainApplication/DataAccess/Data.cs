@@ -4,9 +4,17 @@ namespace MainApplication.DataAccess
 {
     public partial class Data 
     {
-        public Data(bool withSchema)
+        public void Load()
         {
-            ReadXml(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Database.xml"), XmlReadMode.IgnoreSchema);
+            try
+            {
+                ReadXml(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Database.xml"),
+                        XmlReadMode.IgnoreSchema);
+            }
+            catch
+            {
+            }
+
         }
         public void SaveChanges()
         {
